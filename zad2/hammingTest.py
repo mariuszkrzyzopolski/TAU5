@@ -35,7 +35,6 @@ class HammingTest(unittest.TestCase):
         with self.assertRaisesWithMessage(ValueError):
             hamming.distance("G", "")
 
-    # Utility functions
     def setUp(self):
         try:
             self.assertRaisesRegex
